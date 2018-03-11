@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        }
+      ],
+      "intent": "MyColorIsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Names",
+          "type": "LIST_OF_NAMES"
+        }
+      ],
+      "intent": "MyNameIsIntent"
+    },
+    {
+      "intent": "WhatsMyColorIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
